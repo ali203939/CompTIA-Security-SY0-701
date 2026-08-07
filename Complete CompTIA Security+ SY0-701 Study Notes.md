@@ -4689,8 +4689,8 @@ Objectives:
         - Port 135: RPC (Remote Procedure Call) - TCP/UDP
         - Ports 137, 138, 139: NetBIOS - TCP/UDP
         - Port 143: IMAP (Internet Message Access Protocol) - TCP
-- Port 161: SNMP (Simple Network Management Protocol) - UDP
-    - Port 162: SNMPTrap - UDP
+        - Port 161: SNMP (Simple Network Management Protocol) - UDP
+        - Port 162: SNMPTrap - UDP
         - Port 389: LDAP (Lightweight Directory Access Protocol) - TCP
         - Port 443: HTTPS (HTTP Secure) - TCP
         - Port 445: SMB (Server Message Block) - TCP
@@ -4704,6 +4704,7 @@ Objectives:
         - Ports 1812, 1813: RADIUS UDP - UDP
         - Port 3389: RDP (Remote Desktop Protocol) - TCP
         - Port 6514: Syslog TLS - TCP
+
     - Study Tips
         - Create flashcards with protocol, port, and connection details
         - Regularly test yourself to memorize ports and protocols
@@ -4713,7 +4714,7 @@ Objectives:
 
 - *Firewall*
     - A network security device or software that monitors and controls network traffic based on security rules
-        - Protects networks from unauthorized access and potential threats
+    - Protects networks from unauthorized access and potential threats
 - *Screened Subnet (Dual-homed Host)*
     - Acts as a security barrier between external untrusted networks and internal trusted networks using a protected host with security measures like a packet-filtering firewall
     - Types of Firewalls
